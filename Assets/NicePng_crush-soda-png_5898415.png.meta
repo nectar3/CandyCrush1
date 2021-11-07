@@ -1,0 +1,1992 @@
+fileFormatVersion: 2
+guid: 6c4c60e6992d002478014b590bd6a857
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8598610235263866696
+    second: NicePng_crush-soda-png_5898415_0
+  - first:
+      213: 6034389167206882535
+    second: NicePng_crush-soda-png_5898415_1
+  - first:
+      213: -1266806005684492393
+    second: NicePng_crush-soda-png_5898415_2
+  - first:
+      213: -7542636192544509547
+    second: NicePng_crush-soda-png_5898415_3
+  - first:
+      213: -1292162981172729003
+    second: NicePng_crush-soda-png_5898415_4
+  - first:
+      213: 912397110162406676
+    second: NicePng_crush-soda-png_5898415_5
+  - first:
+      213: -5860380817939809140
+    second: NicePng_crush-soda-png_5898415_6
+  - first:
+      213: 7811195733295046799
+    second: NicePng_crush-soda-png_5898415_7
+  - first:
+      213: -7467141968599455229
+    second: NicePng_crush-soda-png_5898415_8
+  - first:
+      213: 378458129654033882
+    second: NicePng_crush-soda-png_5898415_9
+  - first:
+      213: 4131095222368903349
+    second: NicePng_crush-soda-png_5898415_10
+  - first:
+      213: 2253739282690655578
+    second: NicePng_crush-soda-png_5898415_11
+  - first:
+      213: 5668393437353616294
+    second: NicePng_crush-soda-png_5898415_12
+  - first:
+      213: 6365402273412696450
+    second: NicePng_crush-soda-png_5898415_13
+  - first:
+      213: 8082340222992312813
+    second: NicePng_crush-soda-png_5898415_14
+  - first:
+      213: 8244305122054358346
+    second: NicePng_crush-soda-png_5898415_15
+  - first:
+      213: 845797865420273051
+    second: NicePng_crush-soda-png_5898415_16
+  - first:
+      213: -2025712077723153804
+    second: NicePng_crush-soda-png_5898415_17
+  - first:
+      213: -176398999497224218
+    second: NicePng_crush-soda-png_5898415_18
+  - first:
+      213: 7933492040269243219
+    second: NicePng_crush-soda-png_5898415_19
+  - first:
+      213: 1337610657085135692
+    second: NicePng_crush-soda-png_5898415_20
+  - first:
+      213: -8623598317417695765
+    second: NicePng_crush-soda-png_5898415_21
+  - first:
+      213: 8135653229704978345
+    second: NicePng_crush-soda-png_5898415_22
+  - first:
+      213: 8603196147268410059
+    second: NicePng_crush-soda-png_5898415_23
+  - first:
+      213: -5574766426987079091
+    second: NicePng_crush-soda-png_5898415_24
+  - first:
+      213: 7657603756614201785
+    second: NicePng_crush-soda-png_5898415_25
+  - first:
+      213: -4305382006626868382
+    second: NicePng_crush-soda-png_5898415_26
+  - first:
+      213: 2079680598058748089
+    second: NicePng_crush-soda-png_5898415_27
+  - first:
+      213: -5546923251399358121
+    second: NicePng_crush-soda-png_5898415_28
+  - first:
+      213: 4087007140925639553
+    second: NicePng_crush-soda-png_5898415_29
+  - first:
+      213: 9217879205152952003
+    second: NicePng_crush-soda-png_5898415_30
+  - first:
+      213: 3117420547551766366
+    second: NicePng_crush-soda-png_5898415_31
+  - first:
+      213: 5530914486201189253
+    second: NicePng_crush-soda-png_5898415_32
+  - first:
+      213: 3561782632470968750
+    second: NicePng_crush-soda-png_5898415_33
+  - first:
+      213: 6701458371668966703
+    second: NicePng_crush-soda-png_5898415_34
+  - first:
+      213: -6296837209676900149
+    second: NicePng_crush-soda-png_5898415_35
+  - first:
+      213: 8338324707643830796
+    second: NicePng_crush-soda-png_5898415_36
+  - first:
+      213: 7532767264976615110
+    second: NicePng_crush-soda-png_5898415_37
+  - first:
+      213: 3328977533076062221
+    second: NicePng_crush-soda-png_5898415_38
+  - first:
+      213: 4624680116376034495
+    second: NicePng_crush-soda-png_5898415_39
+  - first:
+      213: -291061371589026460
+    second: NicePng_crush-soda-png_5898415_40
+  - first:
+      213: -6669648017287583533
+    second: NicePng_crush-soda-png_5898415_41
+  - first:
+      213: 2667443108522008024
+    second: NicePng_crush-soda-png_5898415_42
+  - first:
+      213: 6911080313690007266
+    second: NicePng_crush-soda-png_5898415_43
+  - first:
+      213: -3038639886972878943
+    second: NicePng_crush-soda-png_5898415_44
+  - first:
+      213: -6487818066211011731
+    second: NicePng_crush-soda-png_5898415_45
+  - first:
+      213: 7473333524180678169
+    second: NicePng_crush-soda-png_5898415_46
+  - first:
+      213: 9037832232620866082
+    second: NicePng_crush-soda-png_5898415_47
+  - first:
+      213: -172465116838457800
+    second: NicePng_crush-soda-png_5898415_48
+  - first:
+      213: -8722392721200302391
+    second: NicePng_crush-soda-png_5898415_49
+  - first:
+      213: 6541940468818094148
+    second: NicePng_crush-soda-png_5898415_50
+  - first:
+      213: -338745725704961379
+    second: NicePng_crush-soda-png_5898415_51
+  - first:
+      213: -1640988253175279854
+    second: NicePng_crush-soda-png_5898415_52
+  - first:
+      213: 8275544409380979993
+    second: NicePng_crush-soda-png_5898415_53
+  - first:
+      213: -5641524261728990564
+    second: NicePng_crush-soda-png_5898415_54
+  - first:
+      213: 3289308026619475894
+    second: NicePng_crush-soda-png_5898415_55
+  - first:
+      213: -8462826346302659040
+    second: NicePng_crush-soda-png_5898415_56
+  - first:
+      213: 7283147159735691704
+    second: NicePng_crush-soda-png_5898415_57
+  - first:
+      213: -3961611214985361605
+    second: NicePng_crush-soda-png_5898415_58
+  - first:
+      213: 3917797961564239108
+    second: NicePng_crush-soda-png_5898415_59
+  - first:
+      213: 3957252401753557520
+    second: NicePng_crush-soda-png_5898415_60
+  - first:
+      213: 3236899562648848705
+    second: NicePng_crush-soda-png_5898415_61
+  - first:
+      213: 4525824249701793857
+    second: NicePng_crush-soda-png_5898415_62
+  - first:
+      213: 984838336682134920
+    second: NicePng_crush-soda-png_5898415_63
+  - first:
+      213: 3037686103020639457
+    second: NicePng_crush-soda-png_5898415_64
+  - first:
+      213: -5073710972869858668
+    second: NicePng_crush-soda-png_5898415_65
+  - first:
+      213: 1140155563781499860
+    second: NicePng_crush-soda-png_5898415_66
+  - first:
+      213: 7585043220024585813
+    second: NicePng_crush-soda-png_5898415_67
+  - first:
+      213: 4909164514872969628
+    second: NicePng_crush-soda-png_5898415_68
+  - first:
+      213: -2532714751506848325
+    second: NicePng_crush-soda-png_5898415_69
+  - first:
+      213: -1068305679612221551
+    second: NicePng_crush-soda-png_5898415_70
+  - first:
+      213: 608977049422754830
+    second: NicePng_crush-soda-png_5898415_71
+  - first:
+      213: 2513212331191633617
+    second: NicePng_crush-soda-png_5898415_72
+  - first:
+      213: 2071289921976251338
+    second: NicePng_crush-soda-png_5898415_73
+  - first:
+      213: 1560647263766008839
+    second: NicePng_crush-soda-png_5898415_74
+  - first:
+      213: 2753093910775691409
+    second: NicePng_crush-soda-png_5898415_75
+  - first:
+      213: 5850166805797358861
+    second: NicePng_crush-soda-png_5898415_76
+  - first:
+      213: -4539393601857798798
+    second: NicePng_crush-soda-png_5898415_77
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 90
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NicePng_crush-soda-png_5898415_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1135
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 847d0fa9376645770800000000000000
+      internalID: 8598610235263866696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_crush-soda-png_5898415_1
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 1133
+        width: 50
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ecd4dbd9f47eb350800000000000000
+      internalID: 6034389167206882535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_crush-soda-png_5898415_2
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1134
+        width: 54
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79728df46a66b6ee0800000000000000
+      internalID: -1266806005684492393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_crush-soda-png_5898415_3
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 1133
+        width: 58
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5913161785c235790800000000000000
+      internalID: -7542636192544509547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_crush-soda-png_5898415_4
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 1134
+        width: 65
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55b2a436d90511ee0800000000000000
+      internalID: -1292162981172729003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_crush-soda-png_5898415_5
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 1134
+        width: 66
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41db25d665c79ac00800000000000000
+      internalID: 912397110162406676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_crush-soda-png_5898415_6
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1038
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8c3f2a12bebbaea0800000000000000
+      internalID: -5860380817939809140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_crush-soda-png_5898415_7
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 1037
+        width: 54
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f80291a4221f66c60800000000000000
+      internalID: 7811195733295046799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_crush-soda-png_5898415_8
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1038
+        width: 57
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30ae73231f16f5890800000000000000
+      internalID: -7467141968599455229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_crush-soda-png_5898415_9
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 1037
+        width: 63
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: add236ce9ad804500800000000000000
+      internalID: 378458129654033882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_crush-soda-png_5898415_10
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 1039
+        width: 69
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b0ac9e9739945930800000000000000
+      internalID: 4131095222368903349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_crush-soda-png_5898415_11
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 1038
+        width: 70
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a55ce11dfe3e64f10800000000000000
+      internalID: 2253739282690655578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_crush-soda-png_5898415_12
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 947
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a32e908ccd2aae40800000000000000
+      internalID: 5668393437353616294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_crush-soda-png_5898415_13
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 945
+        width: 49
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2894a3f64a3765850800000000000000
+      internalID: 6365402273412696450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_crush-soda-png_5898415_14
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 945
+        width: 53
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de9ee495c9d3a2070800000000000000
+      internalID: 8082340222992312813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_crush-soda-png_5898415_15
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 945
+        width: 59
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a45cbfb04d7a96270800000000000000
+      internalID: 8244305122054358346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_crush-soda-png_5898415_16
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 946
+        width: 66
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b95b8286da0ecbb00800000000000000
+      internalID: 845797865420273051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_crush-soda-png_5898415_17
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 946
+        width: 66
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47ac716199933e3e0800000000000000
+      internalID: -2025712077723153804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_crush-soda-png_5898415_18
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 853
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6efcb386b0e4d8df0800000000000000
+      internalID: -176398999497224218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_crush-soda-png_5898415_19
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 852
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35323a82afc691e60800000000000000
+      internalID: 7933492040269243219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_crush-soda-png_5898415_20
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 851
+        width: 53
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4b165f3ec5209210800000000000000
+      internalID: 1337610657085135692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_crush-soda-png_5898415_21
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 851
+        width: 59
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be579a42503d25880800000000000000
+      internalID: -8623598317417695765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_crush-soda-png_5898415_22
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 852
+        width: 66
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9af13540285a7e070800000000000000
+      internalID: 8135653229704978345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_crush-soda-png_5898415_23
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 852
+        width: 66
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bca51f27051b46770800000000000000
+      internalID: 8603196147268410059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_crush-soda-png_5898415_24
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 760
+        width: 67
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4a59a5987372a2b0800000000000000
+      internalID: -5574766426987079091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_crush-soda-png_5898415_25
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 759
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b1bfaf7b06454a60800000000000000
+      internalID: 7657603756614201785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_crush-soda-png_5898415_26
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 759
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 263a5a830e53044c0800000000000000
+      internalID: -4305382006626868382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_crush-soda-png_5898415_27
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 759
+        width: 69
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b8409d3c728cdc10800000000000000
+      internalID: 2079680598058748089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_crush-soda-png_5898415_28
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 760
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7598cf311be5503b0800000000000000
+      internalID: -5546923251399358121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_crush-soda-png_5898415_29
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 760
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18b8b5d3757f7b830800000000000000
+      internalID: 4087007140925639553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_crush-soda-png_5898415_30
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 664
+        width: 68
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ce0a957c4c7cef70800000000000000
+      internalID: 9217879205152952003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_crush-soda-png_5898415_31
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 665
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e57a350a87d434b20800000000000000
+      internalID: 3117420547551766366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_crush-soda-png_5898415_32
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 665
+        width: 69
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5838511db61c1cc40800000000000000
+      internalID: 5530914486201189253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_crush-soda-png_5898415_33
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 665
+        width: 69
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea9769fde6efd6130800000000000000
+      internalID: 3561782632470968750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_crush-soda-png_5898415_34
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 665
+        width: 70
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2d756812ec500d50800000000000000
+      internalID: 6701458371668966703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_crush-soda-png_5898415_35
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 665
+        width: 68
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc81fbc7be32d98a0800000000000000
+      internalID: -6296837209676900149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_crush-soda-png_5898415_36
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 571
+        width: 68
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0239fca42ea7b370800000000000000
+      internalID: 8338324707643830796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_crush-soda-png_5898415_37
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 571
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c63f9ccae3c98860800000000000000
+      internalID: 7532767264976615110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_crush-soda-png_5898415_38
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 571
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d00414cbd67e23e20800000000000000
+      internalID: 3328977533076062221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_crush-soda-png_5898415_39
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 571
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbcd760301a2e2040800000000000000
+      internalID: 4624680116376034495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_crush-soda-png_5898415_40
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 571
+        width: 68
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46d19928931f5fbf0800000000000000
+      internalID: -291061371589026460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_crush-soda-png_5898415_41
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 571
+        width: 68
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d86fa03776a073a0800000000000000
+      internalID: -6669648017287583533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_crush-soda-png_5898415_42
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 471
+        width: 77
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dd940edf59a40520800000000000000
+      internalID: 2667443108522008024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_crush-soda-png_5898415_43
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 472
+        width: 75
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e620b7cde619ef50800000000000000
+      internalID: 6911080313690007266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_crush-soda-png_5898415_44
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 473
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aff5a84f1594d5d0800000000000000
+      internalID: -3038639886972878943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_crush-soda-png_5898415_45
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 472
+        width: 75
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d63812cb7d3a6f5a0800000000000000
+      internalID: -6487818066211011731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_crush-soda-png_5898415_46
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 472
+        width: 75
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 916beccae3d96b760800000000000000
+      internalID: 7473333524180678169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_crush-soda-png_5898415_47
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 472
+        width: 75
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22a31f4f784dc6d70800000000000000
+      internalID: 9037832232620866082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_crush-soda-png_5898415_48
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 382
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83e82b6d3e74b9df0800000000000000
+      internalID: -172465116838457800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_crush-soda-png_5898415_49
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 382
+        width: 73
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c637658806d3f680800000000000000
+      internalID: -8722392721200302391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_crush-soda-png_5898415_50
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 382
+        width: 73
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 448a7a91234a9ca50800000000000000
+      internalID: 6541940468818094148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_crush-soda-png_5898415_51
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 382
+        width: 74
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d928c26ae888c4bf0800000000000000
+      internalID: -338745725704961379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_crush-soda-png_5898415_52
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 382
+        width: 73
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21f06e8c0e90a39e0800000000000000
+      internalID: -1640988253175279854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_crush-soda-png_5898415_53
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 382
+        width: 73
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9158f1c6bc3a8d270800000000000000
+      internalID: 8275544409380979993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_crush-soda-png_5898415_54
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 287
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9a45e3f29745b1b0800000000000000
+      internalID: -5641524261728990564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_crush-soda-png_5898415_55
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 286
+        width: 64
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b7be730938f5ad20800000000000000
+      internalID: 3289308026619475894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_crush-soda-png_5898415_56
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 286
+        width: 63
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02620d8a6400e8a80800000000000000
+      internalID: -8462826346302659040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_crush-soda-png_5898415_57
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 286
+        width: 63
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b9e0f601cfe21560800000000000000
+      internalID: 7283147159735691704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_crush-soda-png_5898415_58
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 286
+        width: 63
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b370898e6978509c0800000000000000
+      internalID: -3961611214985361605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_crush-soda-png_5898415_59
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 286
+        width: 62
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40539c81d70de5630800000000000000
+      internalID: 3917797961564239108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_crush-soda-png_5898415_60
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 193
+        width: 57
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01a051dc71cfae630800000000000000
+      internalID: 3957252401753557520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_crush-soda-png_5898415_61
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 192
+        width: 58
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1494d4d9007cbec20800000000000000
+      internalID: 3236899562648848705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_crush-soda-png_5898415_62
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 192
+        width: 58
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 140035f1d25fece30800000000000000
+      internalID: 4525824249701793857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_crush-soda-png_5898415_63
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 192
+        width: 57
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88d0023df39daad00800000000000000
+      internalID: 984838336682134920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_crush-soda-png_5898415_64
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 193
+        width: 58
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e49fa59a67082a20800000000000000
+      internalID: 3037686103020639457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_crush-soda-png_5898415_65
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 193
+        width: 58
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49a271970ce8699b0800000000000000
+      internalID: -5073710972869858668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_crush-soda-png_5898415_66
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 102
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dba1e7c175a2df00800000000000000
+      internalID: 1140155563781499860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_crush-soda-png_5898415_67
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 102
+        width: 63
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55eec8f0f9c734960800000000000000
+      internalID: 7585043220024585813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_crush-soda-png_5898415_68
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 100
+        width: 63
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c99c4fccd1bd02440800000000000000
+      internalID: 4909164514872969628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_crush-soda-png_5898415_69
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 100
+        width: 63
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb5ea073a5df9dcd0800000000000000
+      internalID: -2532714751506848325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_crush-soda-png_5898415_70
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 100
+        width: 63
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1976e2ff4ad9c21f0800000000000000
+      internalID: -1068305679612221551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_crush-soda-png_5898415_71
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 102
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0475336665837800800000000000000
+      internalID: 608977049422754830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_crush-soda-png_5898415_72
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 5
+        width: 63
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d60fc5bc49b0e220800000000000000
+      internalID: 2513212331191633617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_crush-soda-png_5898415_73
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 7
+        width: 63
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac3bd3ab533bebc10800000000000000
+      internalID: 2071289921976251338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_crush-soda-png_5898415_74
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 4
+        width: 63
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7045570fa6888a510800000000000000
+      internalID: 1560647263766008839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_crush-soda-png_5898415_75
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 7
+        width: 63
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19873194354f43620800000000000000
+      internalID: 2753093910775691409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_crush-soda-png_5898415_76
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 1
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0d4550e6b7ff2150800000000000000
+      internalID: 5850166805797358861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NicePng_crush-soda-png_5898415_77
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 0
+        width: 72
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27db591e195d001c0800000000000000
+      internalID: -4539393601857798798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
