@@ -51,12 +51,13 @@ public class Candy : MonoBehaviour
 
     private void OnMouseDown()
     {
+        CheckCandyGridConnectoin();
         if (selected != null)
         {
             selected.UnSelect();
             if (Vector3.Distance(selected.transform.position, transform.position) == 1)
             {
-                SwapAndCheckMatch(selected, this, SwapFirstMOveCompleted);
+                SwapAndCheckMatch(selected, this, SwapMOveCompleted);
                 selected = null;
                 return;
             }
@@ -65,26 +66,21 @@ public class Candy : MonoBehaviour
         Select();
     }
 
-    Candy swap_a;
-    Candy swap_b;
-    int swapMoveDone = 0;
-    void SwapFirstMOveCompleted()
+    public void CheckCandyGridConnectoin()
     {
-        var matched = GridManager.I.CheckAllBoardMatch();
-        if (matched.Count == 0)
-        {
-            SwapAndCheckMatch(swap_a, swap_b, null);
-        }
+        if (GridManager.I.Grid[row, column] == gameObject)
+            Debug.Log("일치");
         else
-        {
-            GridManager.I.DestroyCandyGO(matched);
-            GridManager.I.FillBlank();
-        }
+            Debug.Log("불일치");
+
     }
 
-    // TODO: 내리는 알고리즘
-    public void MoveToBlank(int row, int col)
+
+
+    NormalCallBack fillMoveCB;
+    public void MoveToBlank(int row, int col, NormalCallBack cb)
     {
+        fillMoveCB = cb;
         moveDone = false;
         transform.DOMove(GridManager.I.GridIndexToPos(row, col), moveSpeed)
             .OnComplete(MoveToBlankDone);
@@ -96,10 +92,10 @@ public class Candy : MonoBehaviour
             GridManager.I.Grid[row, column] = null;
         GridManager.I.Grid[row, column] = this.gameObject;
     }
-
     void MoveToBlankDone()
     {
         moveDone = true;
+        fillMoveCB?.Invoke();
     }
 
     void SwapAndCheckMatch(Candy a, Candy b, TweenCallback cb)
@@ -120,5 +116,22 @@ public class Candy : MonoBehaviour
         GridManager.I.Grid[b.row, b.column] = b.gameObject;
     }
 
+    Candy swap_a;
+    Candy swap_b;
+    int swapMoveDone = 0;
+    void SwapMOveCompleted()
+    {
+        var matched = GridManager.I.CheckAllBoardMatch();
+        if (matched.Count == 0)
+        {
+            SwapAndCheckMatch(swap_a, swap_b, null);
+        }
+        else
+        {
+            StartCoroutine(GridManager.I.CheckAndRemoveAndFill());
+            //GridManager.I.DestroyCandyGO(matched);
+            //GridManager.I.FillBlank();
+        }
+    }
 
 }

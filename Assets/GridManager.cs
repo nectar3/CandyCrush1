@@ -1,8 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+
+
+public delegate void NormalCallBack();
+
+
 public class GridManager : MonoBehaviour
 {
+    public bool allMoveDone = true;
+
     public static GridManager I { get; private set; }
     void Awake() { I = this; }
 
@@ -36,7 +43,6 @@ public class GridManager : MonoBehaviour
     }
 
 
-
     void InitGrid()
     {
 
@@ -51,7 +57,15 @@ public class GridManager : MonoBehaviour
                 Grid[row, column] = candy;
             }
         }
+        StartCoroutine(WaitAndCheck());
     }
+
+    IEnumerator WaitAndCheck()
+    {
+        yield return new WaitForSeconds(1f);
+        StartCoroutine(CheckAndRemoveAndFill());
+    }
+
 
 
     public HashSet<GameObject> CheckAllBoardMatch()
@@ -81,13 +95,37 @@ public class GridManager : MonoBehaviour
     }
 
 
+
+    //TODO:  매칭확인 -> 삭제 -> 내리기 -> 매칭확인
+
+    //TODO: 버그 해겨ㄹ
+    public IEnumerator CheckAndRemoveAndFill()
+    {
+        while (true)
+        {
+            var matched = CheckAllBoardMatch();
+            Debug.Log("matched: " + matched.Count);
+            if (matched.Count == 0)
+                break;
+            DestroyCandyGO(matched);
+            FillBlank();
+
+            // TODO: 여기서 진행이 안되는 문제.
+            //  TOOD: 각 캔디 moveDone 확인하기
+            yield return new WaitUntil(() => allMoveDone == true);
+            Debug.Log("All move Done true");
+        }
+    }
+
+
     public void FillBlank()
     {
         Debug.Log("fillBlank");
+        allMoveDone = false;
+
         for (int col = 0; col < dimension; col++)
         {
             var candies = GetColumnGO(col);
-            Debug.Log(string.Format("col:{0}  objCount:{1}", col, candies.Count));
             var newCandy = MakeNewCandy(col, dimension - candies.Count);
             foreach (var item in newCandy)
                 candies.Enqueue(item);
@@ -97,10 +135,32 @@ public class GridManager : MonoBehaviour
                 var cand = candies.Dequeue();
                 var candy = cand.GetComponent<Candy>();
                 if (candy.row != row)
-                    candy.MoveToBlank(row, col);
+                    candy.MoveToBlank(row, col, FillBlankMoveCB);
             }
         }
     }
+
+    void FillBlankMoveCB()
+    {
+        allMoveDone = isAllMoveDone();
+
+    }
+
+
+    bool isAllMoveDone()
+    {
+        for (int row = 0; row < dimension; row++)
+        {
+            for (int col = 0; col < dimension; col++)
+            {
+                if (Grid[row, col].GetComponent<Candy>().moveDone == false)
+                    return false;
+            }
+        }
+        return true;
+    }
+
+
 
     Queue<GameObject> MakeNewCandy(int col, int num)
     {
@@ -126,17 +186,14 @@ public class GridManager : MonoBehaviour
         return objs;
     }
 
-
+    //TODO: 터지는 모션 만들고 기다리기
     public void DestroyCandyGO(HashSet<GameObject> gos)
     {
-        Debug.Log("DestroyCandyGO: " + gos.Count);
         foreach (var go in gos)
         {
             Grid[go.GetComponent<Candy>().row, go.GetComponent<Candy>().column] = null;
             Destroy(go);
         }
-
-
     }
 
 

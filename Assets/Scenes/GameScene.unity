@@ -198,7 +198,7 @@ MonoBehaviour:
   Sprites: []
   CandyPrefab: {fileID: 5535807352869106579, guid: 46906d3b4f8f3ee45bd41a45fbb31468, type: 3}
   CandyParent: {fileID: 1618820841}
-  GridDimension: 9
+  dimension: 9
   Distance: 1
 --- !u!4 &344169877
 Transform:
@@ -507,7 +507,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 669534445}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.47, y: 3.49, z: -10}
+  m_LocalPosition: {x: 4.47, y: 4.49, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
