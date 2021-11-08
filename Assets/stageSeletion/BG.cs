@@ -1,4 +1,4 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -10,7 +10,7 @@ public class BG : MonoBehaviour
     Vector3 clickStartpos;
     Vector3 startPos;
 
-    float bounce_margin = 15f; // ½ºÅ©·Ñ ±İÁö ±¸¿ª
+    float bounce_margin = 15f; // ìŠ¤í¬ë¡¤ ê¸ˆì§€ êµ¬ì—­
 
     Vector3 bgSize;
 
@@ -21,8 +21,8 @@ public class BG : MonoBehaviour
         bgSize = GetComponent<Renderer>().bounds.size;
     }
 
-    //TODO: ¹Ù¿î½º ¹é ·ÎÁ÷
-    // TODO: °æ°è¿¡¼­¸¸ ¹Ù¿î½º ¹é ÇÏµµ·Ï.
+    //TODO: ë°”ìš´ìŠ¤ ë°± ë¡œì§
+    // TODO: ê²½ê³„ì—ì„œë§Œ ë°”ìš´ìŠ¤ ë°± í•˜ë„ë¡.
 
     bool isGrabbed = false;
 

@@ -1,4 +1,4 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
@@ -126,14 +126,13 @@ public class GridManager : MonoBehaviour
         return matched;
     }
 
-    // ÄÚ·çÆ¾À» ¿ÜºÎ¿¡¼­ ½ÇÇàÇÏ¸é ±× object ÆÄ±«½Ã ÄÚ·çÆ¾µµ ¸ØÃß±â¶§¹®¿¡ ²À ¸Å´ÏÀú¿¡¼­ ½ÇÇà
+    // ì½”ë£¨í‹´ì„ ì™¸ë¶€ì—ì„œ ì‹¤í–‰í•˜ë©´ ê·¸ object íŒŒê´´ì‹œ ì½”ë£¨í‹´ë„ ë©ˆì¶”ê¸°ë•Œë¬¸ì— ê¼­ ë§¤ë‹ˆì €ì—ì„œ ì‹¤í–‰
     public void RunCheckAndRemoveAndFill()
     {
         StartCoroutine(CheckAndRemoveAndFill());
     }
 
-    //TODO:  ¸ÅÄªÈ®ÀÎ -> »èÁ¦ -> ³»¸®±â -> ¸ÅÄªÈ®ÀÎ
-    //TODO: ¹ö±× 
+    // ë§¤ì¹­í™•ì¸ -> ì‚­ì œ -> ë‚´ë¦¬ê¸° -> ë§¤ì¹­í™•ì¸
     IEnumerator CheckAndRemoveAndFill()
     {
         while (true)

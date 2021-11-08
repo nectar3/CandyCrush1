@@ -1,4 +1,4 @@
-using System.Collections;
+Ôªøusing System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
@@ -96,7 +96,7 @@ public class Candy : MonoBehaviour
 
     Candy swap_a;
     Candy swap_b;
-    void SwapAndCheckMatch(Candy a, Candy b, bool forReturn) //doReturn : ∏≈ƒ°µ»∞‘ æ¯¿∏∏È ∫π±Õ
+    void SwapAndCheckMatch(Candy a, Candy b, bool forReturn) //doReturn : Îß§ÏπòÎêúÍ≤å ÏóÜÏúºÎ©¥ Î≥µÍ∑Ä
     {
         swap_a = a;
         swap_b = b;
@@ -120,7 +120,7 @@ public class Candy : MonoBehaviour
         var matched = GridManager.I.CheckAllBoardMatch();
         if (matched.Count == 0)
         {
-            SwapAndCheckMatch(swap_a, swap_b, true); // ∫π±Õ
+            SwapAndCheckMatch(swap_a, swap_b, true); // Î≥µÍ∑Ä
         }
         else
         {
