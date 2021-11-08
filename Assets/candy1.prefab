@@ -103,7 +103,7 @@ MonoBehaviour:
   - {fileID: -7542636192544509547, guid: 6c4c60e6992d002478014b590bd6a857, type: 3}
   - {fileID: 912397110162406676, guid: 6c4c60e6992d002478014b590bd6a857, type: 3}
   spriteIndex: 0
-  moveSpeed: 0.5
+  moveSpeed: 0.35
   row: -1
   column: -1
   moveDone: 1
@@ -124,7 +124,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.6, y: 0.76666665}
+    oldSize: {x: 0.675, y: 0.8625}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0

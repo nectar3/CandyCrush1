@@ -51,13 +51,18 @@ public class Candy : MonoBehaviour
 
     private void OnMouseDown()
     {
-        CheckCandyGridConnectoin();
+        if (selected == this)
+        {
+            selected = null;
+            UnSelect();
+            return;
+        }
         if (selected != null)
         {
             selected.UnSelect();
             if (Vector3.Distance(selected.transform.position, transform.position) == 1)
             {
-                SwapAndCheckMatch(selected, this, SwapMOveCompleted);
+                SwapAndCheckMatch(selected, this, false);
                 selected = null;
                 return;
             }
@@ -66,21 +71,11 @@ public class Candy : MonoBehaviour
         Select();
     }
 
-    public void CheckCandyGridConnectoin()
-    {
-        if (GridManager.I.Grid[row, column] == gameObject)
-            Debug.Log("일치");
-        else
-            Debug.Log("불일치");
 
-    }
-
-
-
-    NormalCallBack fillMoveCB;
+    NormalCallBack FillMoveCB;
     public void MoveToBlank(int row, int col, NormalCallBack cb)
     {
-        fillMoveCB = cb;
+        FillMoveCB = cb;
         moveDone = false;
         transform.DOMove(GridManager.I.GridIndexToPos(row, col), moveSpeed)
             .OnComplete(MoveToBlankDone);
@@ -95,10 +90,13 @@ public class Candy : MonoBehaviour
     void MoveToBlankDone()
     {
         moveDone = true;
-        fillMoveCB?.Invoke();
+        FillMoveCB?.Invoke();
     }
 
-    void SwapAndCheckMatch(Candy a, Candy b, TweenCallback cb)
+
+    Candy swap_a;
+    Candy swap_b;
+    void SwapAndCheckMatch(Candy a, Candy b, bool forReturn) //doReturn : 매치된게 없으면 복귀
     {
         swap_a = a;
         swap_b = b;
@@ -106,7 +104,7 @@ public class Candy : MonoBehaviour
         Sequence seq = DOTween.Sequence();
         seq.Append(a.transform.DOMove(b.transform.position, moveSpeed))
             .Join(b.transform.DOMove(a.transform.position, moveSpeed))
-            .OnComplete(cb);
+            .OnComplete(forReturn ? (TweenCallback)null : SwapMOveCompleted);
 
         int t_row = a.row;
         int t_col = a.column;
@@ -116,21 +114,17 @@ public class Candy : MonoBehaviour
         GridManager.I.Grid[b.row, b.column] = b.gameObject;
     }
 
-    Candy swap_a;
-    Candy swap_b;
-    int swapMoveDone = 0;
+
     void SwapMOveCompleted()
     {
         var matched = GridManager.I.CheckAllBoardMatch();
         if (matched.Count == 0)
         {
-            SwapAndCheckMatch(swap_a, swap_b, null);
+            SwapAndCheckMatch(swap_a, swap_b, true); // 복귀
         }
         else
         {
-            StartCoroutine(GridManager.I.CheckAndRemoveAndFill());
-            //GridManager.I.DestroyCandyGO(matched);
-            //GridManager.I.FillBlank();
+            GridManager.I.RunCheckAndRemoveAndFill();
         }
     }
 

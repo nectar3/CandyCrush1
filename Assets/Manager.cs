@@ -4,20 +4,20 @@ using UnityEngine;
 
 public class Manager : MonoBehaviour
 {
-
-
-
-
     public void Test()
     {
-        //var matched = GridManager.I.CheckAllBoardMatch();
-        //Debug.Log(matched.Count);
-        //foreach (var go in matched)
-        //{
-        //    go.GetComponent<SpriteRenderer>().material.color = Color.gray;
-        //}
+        bool dd = GridManager.I.CheckCandyGridConnection();
+
+        Debug.Log("CheckCandyGridConnection: " + dd);
     }
 
+    public void Test2()
+    {
+        //bool dd = GridManager.I.CheckAllCandyMoveDone();
+        //Debug.Log("CheckAllCandyMoveDone: " + dd);
+
+        //Debug.Log(GridManager.I.CheckAndRemoveAndFill == null);
+    }
 
     void Update()
     {

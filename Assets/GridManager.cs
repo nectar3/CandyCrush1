@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using TMPro;
 
 public delegate void NormalCallBack();
 
@@ -16,6 +16,9 @@ public class GridManager : MonoBehaviour
     public List<Sprite> Sprites = new List<Sprite>();
     public GameObject CandyPrefab;
     public Transform CandyParent;
+    public GameObject DoneEffectPref;
+
+    public TextMeshProUGUI text_score;
 
     public int dimension = 9;
     public float Distance = 1.0f;
@@ -24,12 +27,17 @@ public class GridManager : MonoBehaviour
 
     private Vector3 posOffset = new Vector3(0.5f, 0.5f, 0);
 
+    private int score = 0;
+
     void Start()
     {
 
         Grid = new GameObject[dimension, dimension];
 
         InitGrid();
+
+        text_score.SetText("score: " + score);
+
     }
     public Vector2Int PosToGridIndex(Vector3 pos)
     {
@@ -65,7 +73,31 @@ public class GridManager : MonoBehaviour
         yield return new WaitForSeconds(1f);
         StartCoroutine(CheckAndRemoveAndFill());
     }
-
+    public bool CheckCandyGridConnection()
+    {
+        for (int row = 0; row < dimension; row++)
+        {
+            for (int col = 0; col < dimension; col++)
+            {
+                if (Grid[row, col].GetComponent<Candy>().row != row ||
+                    Grid[row, col].GetComponent<Candy>().column != col)
+                    return false;
+            }
+        }
+        return true;
+    }
+    public bool CheckAllCandyMoveDone()
+    {
+        for (int row = 0; row < dimension; row++)
+        {
+            for (int col = 0; col < dimension; col++)
+            {
+                if (Grid[row, col].GetComponent<Candy>().moveDone == false)
+                    return false;
+            }
+        }
+        return true;
+    }
 
 
     public HashSet<GameObject> CheckAllBoardMatch()
@@ -94,12 +126,15 @@ public class GridManager : MonoBehaviour
         return matched;
     }
 
-
+    // 코루틴을 외부에서 실행하면 그 object 파괴시 코루틴도 멈추기때문에 꼭 매니저에서 실행
+    public void RunCheckAndRemoveAndFill()
+    {
+        StartCoroutine(CheckAndRemoveAndFill());
+    }
 
     //TODO:  매칭확인 -> 삭제 -> 내리기 -> 매칭확인
-
-    //TODO: 버그 해겨ㄹ
-    public IEnumerator CheckAndRemoveAndFill()
+    //TODO: 버그 
+    IEnumerator CheckAndRemoveAndFill()
     {
         while (true)
         {
@@ -110,17 +145,13 @@ public class GridManager : MonoBehaviour
             DestroyCandyGO(matched);
             FillBlank();
 
-            // TODO: 여기서 진행이 안되는 문제.
-            //  TOOD: 각 캔디 moveDone 확인하기
             yield return new WaitUntil(() => allMoveDone == true);
-            Debug.Log("All move Done true");
         }
     }
 
 
     public void FillBlank()
     {
-        Debug.Log("fillBlank");
         allMoveDone = false;
 
         for (int col = 0; col < dimension; col++)
@@ -143,7 +174,6 @@ public class GridManager : MonoBehaviour
     void FillBlankMoveCB()
     {
         allMoveDone = isAllMoveDone();
-
     }
 
 
@@ -186,14 +216,18 @@ public class GridManager : MonoBehaviour
         return objs;
     }
 
-    //TODO: 터지는 모션 만들고 기다리기
     public void DestroyCandyGO(HashSet<GameObject> gos)
     {
+        var count = gos.Count;
         foreach (var go in gos)
         {
+            var eff = Instantiate(DoneEffectPref, go.transform.position, Quaternion.identity);
+            eff.GetComponent<doneEffectParent>().spr = go.GetComponent<SpriteRenderer>().sprite;
             Grid[go.GetComponent<Candy>().row, go.GetComponent<Candy>().column] = null;
             Destroy(go);
         }
+        score += count * 1000;
+        text_score.SetText("score: " + score);
     }
 
 
